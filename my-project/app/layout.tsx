@@ -1,8 +1,10 @@
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css";
-
 
 const inter = Inter({ subsets: ["latin"] });
 

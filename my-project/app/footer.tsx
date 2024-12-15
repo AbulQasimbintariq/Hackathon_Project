@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
-      <div className="flex justify-center items-center w-100%">
-          <div className="flex justify-center items-center h-10 w-90%">
+      <div className="flex flex-col justify-center items-center h-auto w-100% bg-slate-300">
+          <div className="flex justify-center items-center h-10 w-90% bg-gray-500">
            <div>
             <h1 className="flex flex-wrap">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
            </div>
@@ -10,10 +10,10 @@ export default function Footer(){
                 <button>Subscribe</button>
             </div>
         </div>
-        <div>
-          <div className="flex justify-center items-center">
+        <div className="flex justify-around w-full items-center">
+          <div className="flex justify-center items-center flex-col w-20">
             <h1>SHOP.CO</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corrupti repellendus at omnis nisi.
+            <p className="flex flex-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corrupti repellendus at omnis nisi.
             </p>
             <div>
             <i className="fa-brands fa-twitter"></i>

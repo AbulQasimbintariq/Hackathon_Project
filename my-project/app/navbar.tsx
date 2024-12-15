@@ -1,4 +1,3 @@
-import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css";
 export default function Navbar(){
     return(
         <div className="flex justify-between">
