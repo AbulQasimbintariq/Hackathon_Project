@@ -1,5 +1,5 @@
 import styles from '../styles/ProductList.module.css';
-import ProductItem from './productitem';
+import TopSelling from './productitem';
 
 const products = [
   { id: 1, name: 'Gradient Graphic T-Shirt', price: 145, image: '/images/product1.jpg', oldPrice: null },
